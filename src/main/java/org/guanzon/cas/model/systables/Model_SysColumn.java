@@ -363,4 +363,9 @@ public class Model_SysColumn implements GEntity {
             System.exit(1);
         }
     }
+
+    @Override
+    public int getEditMode() {
+        return pnEditMode;
+    }
 }
